@@ -75,11 +75,11 @@ A 1:00 PM time-based exit produced the highest expectancy among tested configura
 <img width="605" height="344" alt="image" src="https://github.com/user-attachments/assets/0eda0b60-b742-45fa-9c2c-65a17a2a8a20" />
 
 ## Results
-
-    ## Equity Curve
-       <img width="584" height="277" alt="image" src="https://github.com/user-attachments/assets/ab55243b-0018-4aea-96da-d48ee1d11a69" />
+    
+    ##  Equity Curve 
+<img width="584" height="277" alt="image" src="https://github.com/user-attachments/assets/ab55243b-0018-4aea-96da-d48ee1d11a69" />
 
     ## Monthly Returns
-       <img width="584" height="308" alt="image" src="https://github.com/user-attachments/assets/bba95ddc-ef1f-4a3a-b071-333cab15d293" />
+ <img width="584" height="308" alt="image" src="https://github.com/user-attachments/assets/bba95ddc-ef1f-4a3a-b071-333cab15d293" />
 
 
