@@ -41,6 +41,53 @@ Each configuration was evaluated using:
 * Maximum Drawdown
 * Sharpe Ratio
 
+## Data Collection
+
+Historical market data was collected using the Upstox Historical Candle Data API (V3).
+
+### Data Specifications
+
+* Data Source: Upstox API
+* Frequency: 1-Minute OHLCV Candles
+* Market: NSE Equity
+* Period: January 2024 – January 2025
+* Stocks: Nifty 50 Constituents
+
+### Data Pipeline
+
+1. Authenticated with Upstox API using OAuth access tokens.
+2. Retrieved historical 1-minute candle data through the Historical Candle Data V3 endpoint.
+3. Downloaded and stored data locally as CSV files.
+4. Processed data using Pandas for backtesting and analysis.
+
+### Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Upstox Historical Candle Data API V3
+* Google Colab
+* GitHub
+
+### Research Workflow
+
+* Automated historical data extraction from Upstox.
+* Built a custom backtesting engine.
+* Tested 64 parameter combinations across:
+
+  * Gap Thresholds
+  * Risk-Reward Ratios
+  * Exit Timings
+* Evaluated performance using:
+
+  * Win Rate
+  * Expectancy
+  * Profit Factor
+  * Sharpe Ratio
+  * Maximum Drawdown
+  * Equity Curve Analysis
+
 ## Key Findings
 
 ### Gap Threshold
